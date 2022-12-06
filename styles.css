@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+
+:root {
+  --primary-color: #f6c616;
+  --secondary-color: #0a75bc;
+  --dark-grey: #231f20;
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--primary-color);
+  font-family: "Boogaloo", cursive;
+  margin: 0rem;
+}
+
+.navigation {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  padding-bottom: 0.6rem;
+  height: 6rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.navigation .navImg {
+  text-align: center;
+  height: 6rem;
+  object-fit: contain;
+}
+
+.input {
+  text-align: center;
+  display: block;
+}
+
+.heading {
+  font-size: 60px;
+  text-align: center;
+  color: var(--dark-grey);
+  margin: 0.5rem;
+}
+
+.heading2 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--secondary-color);
+  margin: 0.5rem;
+}
+
+.textArea {
+  width: 30rem;
+  min-height: 5rem;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  margin: 1rem 3rem 2rem 3rem;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.btn-translate {
+  background-color: white;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 8px;
+  font-family: "Boogaloo", cursive;
+  color: var(--primary-color);
+  font-weight: lighter;
+}
+
+.btn-translate:hover {
+  background-color: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.output {
+  width: 30rem;
+  min-height: 6rem;
+  margin: auto;
+  padding: 1rem;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+  background-color: white;
+  color: var(--secondary-color);
+}
+
+.footer {
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.footer-heading {
+  font-size: 30px;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.footer-content {
+  margin: 1rem 0;
+}
+
+.footer-container {
+  font-size: 20px;
+  text-align: center;
+  margin: auto;
+  color: var(--primary-color);
+  width: 60%;
+}
